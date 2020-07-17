@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get("/user/index","Api\UserController@index");
+Route::get("/user/store","Api\UserController@store");
