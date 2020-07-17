@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
+ * Created by Lizijie.
  * User: Administrator
  * Date: 2020/7/17
- * Time: 17:05
+ * Time: 16:50
  */
 namespace App\Model;
 use Illuminate\Database\Eloquent\Model;

@@ -1,11 +1,13 @@
 <?php
 /**
- * Created by PhpStorm.
+ * Created by Lizijie.
  * User: Administrator
  * Date: 2020/7/17
- * Time: 17:05
+ * Time: 16:50
  */
+
 namespace App\Model;
+
 use App\Model\BaseModel;
 
 class User extends BaseModel
@@ -25,5 +27,10 @@ class User extends BaseModel
     protected $table = 'user';
 
     public $timestamps = false;
-    protected $fillable = ['username','phone'];
+
+    //默认填充
+    protected $fillable = ['username', 'phone'];
+
+    protected $hidden = ['created_at', 'updated_at'];
+
 }

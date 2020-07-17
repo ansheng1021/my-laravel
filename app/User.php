@@ -1,5 +1,10 @@
 <?php
-
+/**
+ * Created by Lizijie.
+ * User: Administrator
+ * Date: 2020/7/17
+ * Time: 16:50
+ */
 namespace App;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
