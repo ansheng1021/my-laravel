@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6558f74828bca9ebecac73d90cea4b1a",
+    "content-hash": "37be9c6645ce83e98c45d5d03c2315bd",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -810,6 +810,56 @@
                 "url"
             ],
             "time": "2019-07-01T23:21:34+00:00"
+        },
+        {
+            "name": "hanson/chinese",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Hanson/chinese.git",
+                "reference": "3df22c9d9942b672fd7fcf97e387e7af13f5fe32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Hanson/chinese/zipball/3df22c9d9942b672fd7fcf97e387e7af13f5fe32",
+                "reference": "3df22c9d9942b672fd7fcf97e387e7af13f5fe32",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hanson\\Chinese\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hanson",
+                    "email": "h@hanc.cc"
+                },
+                {
+                    "name": "fengqi",
+                    "email": "lyf362345@gmail.com",
+                    "homepage": "http://fengqi.me"
+                }
+            ],
+            "description": "简繁体转换.",
+            "keywords": [
+                "Pinyin",
+                "fanti",
+                "hanzi",
+                "jianti"
+            ],
+            "time": "2018-09-06T18:23:43+00:00"
         },
         {
             "name": "laravel/framework",
@@ -7093,7 +7143,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "hanson/chinese": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
